@@ -1,0 +1,220 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    position: relative;
+}
+.menu_bar2{
+    background-color: hsla(240, 100%, 50%, 0.753);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    
+}
+.menu_logo {
+    background-color: rgb(14, 14, 173);
+    flex: 0.1;
+}
+.menu_logo img {
+    height: 150px;
+    width: 250px;
+    padding: 0px;
+}
+.menu_list {
+    background-color: hsla(240, 100%, 50%, 0.753);
+    flex: 0.9;
+    padding: 40px 30px 30px 30px;
+}
+.top_menu_list{
+    display: flex;
+    justify-content: end;
+    padding: 0 15px 0px 0px;
+    text-transform: capitalize;
+
+}
+.top_menu_list a{
+font-size: 1.5rem;
+padding: 0px 0px 0rem 2rem;
+color: white;
+text-decoration: none;
+}
+.top_menu_list a:hover{
+    text-decoration: underline;
+    color: yellow;
+    font-size: 3rem;
+}
+.buttom_menu_list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 0px 0px;
+    text-transform: capitalize;
+    
+}
+.buttom_menu_list a{
+ font-size: 1.5rem;
+    padding: 0px 0px 0rem 2rem;   
+}
+.buttom_menu_list a:hover{
+    color: white;
+    background-color: yellow;
+    cursor: pointer;
+    padding: 10px;
+}  
+
+.button {
+    display: flex;
+    box-sizing: border-box;
+    padding: 0rem 4rem 0rem 65rem;
+}
+.fp{
+    font-size: 70px;
+    text-transform: capitalize;
+    
+}
+.L {
+    font-size: 50px;
+    text-transform: capitalize;
+    
+}
+.op {
+    justify-items: normal;
+    font-size: x-large;
+    padding: 50px 0px 0px 50px;
+   
+}
+.fpl {
+display: flex;
+padding: 10px 20px 2px 650px;
+align-items: center;
+}
+.fp_l {
+    box-sizing: border-box;
+    text-align: center; 
+}
+
+.wo {
+    font-size: 80px;
+    padding: 20px 20px 20px 800px;
+    text-transform: capitalize;
+    align-content: center;
+}
+
+.covid img{
+    width: 2405px;
+    height: auto;
+    size: auto;
+}
+.hotel_open{
+    font-weight: 1000;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: white;
+    padding-top: 0px;
+}
+.read_about{
+    font-weight: 800;
+    font-size: 30px;  
+    color: white;
+     
+}
+.read_about_div{
+    padding: 0px 0px 0px 4rem;
+    background-color: blue;  
+}
+.activities_and_things_to_do{
+    background-color: blue;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+
+.activites_heading {
+    font-size: 100px;
+    justify-items: center;
+    color: white;
+    padding-left: 40rem;
+    padding-right: 40rem;
+}
+    
+.activities {
+    display: flex;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.activities div{
+padding: 10rem 10rem;
+display: flex;
+height: 800px;
+width: auto;
+
+}
+
+.spin{
+    background-image: url("../images/466011085.jpg.sunimage.800.1000.jpg.sunimage.800.400.jpg");
+    padding-top: 200px;
+    padding-bottom: 30px;
+    font-size: 70px;
+    background-repeat: no-repeat;
+      
+}
+
+.Fed_offer{
+    background-image: url("../images/FPHNe6002-4588-federal-palace-hotel-the-deck-restaurant-at-the-pool-club-IMG_9021-1.jpg.sunimage.800.1000.jpg.sunimage.800.400.jpg");
+    padding-top: 200px;
+    padding-bottom: 30px;
+    font-size: 70px;
+    background-repeat: no-repeat;
+}
+.with_eleven_elegant {
+    background-image: url("../images/federal-palace-boardroom-4084.jpg.sunimage.800.1000.jpg.sunimage.800.400.jpg");
+    padding-top: 200px;
+    padding-bottom: 30px;
+    font-size: 70px;
+    background-repeat: no-repeat;
+}
+
+.fp_ext_img{
+    margin: 8rem 0 0 0;
+}
+.fp_ext_img img{
+width: 2405px;
+height: auto;
+}
+.calender_menu{
+    background-color: green;
+    padding: 3rem 20% 4rem 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+}
+.calender_tab{
+    padding: 15px;
+    background-color: pink;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    font-size: x-large;
+    position:absolute;
+    /* left: 0; */
+    top: 0;
+    z-index: 99;
+    margin-top: -2rem
+}
+.fp_in_Lag{
+    display: flex;
+    align-items: center;
+    
+}
+.navbar{
+    background-color: rgb(56, 56, 186);
+    display: flex;
+    font-size: x-large;
+    padding: 10px 10px 10px 50px  ;
+    align-content: space-between;
+}
