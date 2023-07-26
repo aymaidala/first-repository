@@ -93,25 +93,38 @@ align-items: center;
     box-sizing: border-box;
     text-align: center; 
 }
+.reward{
+    display: flex;
+    background-color: blueviolet;
+    width: 120rem;
+    height: 50;
+    align-items: center;
+    justify-content: center;
+}
 
 .wo {
     font-size: 80px;
-    padding: 20px 20px 20px 800px;
+    padding: 20px 20px 20px 1100px;
     text-transform: capitalize;
-    align-content: center;
+    
 }
 
+.covid{
+    padding-left: 30rem;
+    padding-right: 30rem;
+    padding-bottom: 0rem;
+}
 .covid img{
-    width: 2405px;
+    width: 1500px;
     height: auto;
-    size: auto;
+
 }
 .hotel_open{
     font-weight: 1000;
     font-size: 50px;
     text-transform: capitalize;
     color: white;
-    padding-top: 0px;
+
 }
 .read_about{
     font-weight: 800;
@@ -147,11 +160,21 @@ align-items: center;
 }
 
 .activities div{
-padding: 10rem 10rem;
-display: flex;
+padding: 0rem 2rem;
+/* display: flex; */
 height: 800px;
-width: auto;
-
+/* width: auto; */
+flex: 1;
+margin: 2rem;
+border-radius: 2rem;
+position: relative;
+}
+.activities div a{
+color: yellow;
+margin: 5rem 0 0 0;
+position: absolute;
+bottom: 0;
+/* padding: 0rem 2rem; */
 }
 
 .spin{
@@ -160,9 +183,12 @@ width: auto;
     padding-bottom: 30px;
     font-size: 70px;
     background-repeat: no-repeat;
-      
+    border: 3px solid yellow;     
 }
-
+/* .spin img{
+height: 20rem;
+width: auto;
+} */
 .Fed_offer{
     background-image: url("../images/FPHNe6002-4588-federal-palace-hotel-the-deck-restaurant-at-the-pool-club-IMG_9021-1.jpg.sunimage.800.1000.jpg.sunimage.800.400.jpg");
     padding-top: 200px;
@@ -170,6 +196,7 @@ width: auto;
     font-size: 70px;
     background-repeat: no-repeat;
 }
+
 .with_eleven_elegant {
     background-image: url("../images/federal-palace-boardroom-4084.jpg.sunimage.800.1000.jpg.sunimage.800.400.jpg");
     padding-top: 200px;
@@ -177,7 +204,32 @@ width: auto;
     font-size: 70px;
     background-repeat: no-repeat;
 }
+.pool_image{
+    background-image: url("../images/background\ fed\ pal\ imageR.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    width: 100vw;
+}
+.pool_content{
+    background-color: green;
+    position: absolute;
+    top: 30%;
+    left: 85%;
+    
 
+}
+/* .overlay{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.7;
+} */
 .fp_ext_img{
     margin: 8rem 0 0 0;
 }
@@ -186,7 +238,7 @@ width: 2405px;
 height: auto;
 }
 .calender_menu{
-    background-color: green;
+    /* background-color: green; */
     padding: 3rem 20% 4rem 20%;
     display: flex;
     flex-direction: column;
@@ -206,6 +258,14 @@ height: auto;
     z-index: 99;
     margin-top: -2rem
 }
+.check_availability{
+    background-color: orange;
+}
+    
+.check_availability:hover{
+background-color:yellow;
+}
+
 .fp_in_Lag{
     display: flex;
     align-items: center;
