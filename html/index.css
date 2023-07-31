@@ -42,14 +42,15 @@ text-decoration: none;
 }
 .top_menu_list a:hover{
     text-decoration: underline;
-    color: yellow;
-    font-size: 3rem;
+    color: white;
+    font-size: 2rem;
 }
 .buttom_menu_list{
     display: flex;
     justify-content: space-between;
     padding: 0 15px 0px 0px;
     text-transform: capitalize;
+    color: white;
     
 }
 .buttom_menu_list a{
@@ -58,9 +59,9 @@ text-decoration: none;
 }
 .buttom_menu_list a:hover{
     color: white;
-    background-color: yellow;
+    background-color: black;
     cursor: pointer;
-    padding: 10px;
+    
 }  
 
 .button {
@@ -170,7 +171,7 @@ border-radius: 2rem;
 position: relative;
 }
 .activities div a{
-color: yellow;
+color: white;
 margin: 5rem 0 0 0;
 position: absolute;
 bottom: 0;
@@ -183,7 +184,7 @@ bottom: 0;
     padding-bottom: 30px;
     font-size: 70px;
     background-repeat: no-repeat;
-    border: 3px solid yellow;     
+    /* border: 3px solid yellow;      */
 }
 /* .spin img{
 height: 20rem;
@@ -212,14 +213,135 @@ width: auto;
     background-size: cover;
     position: relative;
     background-attachment: fixed;
-    width: 100vw;
+    /* width: 100vw; */
 }
 .pool_content{
-    background-color: green;
+    background-color: rgb(7, 7, 73);
     position: absolute;
     top: 30%;
-    left: 85%;
+    left: 70%;
+    font-size: 30px;
+    border-radius: 1rem;
+    height: 30rem;
+    width: 35rem;
+    padding: 3rem;
+    font-size: 30px;
+    color: white;
+}
+  
+.pool_club{
+    color: white;
+    font-size: 50px;
+}
+.read_more{
+    background-color: blue;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    align-items: center;
+    color: white;
+}
+.read_more:hover{
+    background-color: white;
+}
+.get_div{
+    display: flex;
+    justify-content: center;
+    padding: 10rem 0 10rem 0 ;
+}
+.get_in_touch{
+  font-size: 30px;
+  padding: 2rem;
+}
+.get {
+font-size: 50px;
+padding-bottom: 2rem;
+}
+.ffp{
+    margin: 0;
+}
+.ffp_text{
+    font-size: 50px;
+    padding: 2rem 0 0 7rem;
+}
+.logos{
+    display: flex;
+    padding: 1rem 0 0 2rem;
+}
+.logos img{
+padding: 2rem;
+height: 100px;
+width: 100px;
+}
+.logos img a:hover{
+background-color: navy;
+}
+
+.location_list{
+    font-size: x-large;
+}
+.location{
+display: flex;
+}
+.clock{
+display: flex;
+
+}
+.destination-time{
+    padding: 3rem;
+}
+.cloud{
+    display: flex;
+}
+.gps{
+    display: flex;
+}
+.main-loc-clc-temp{
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 0rem 3rem 0rem;
+    background-color: blue;
+    color: white;
+}
+.main-loc-clc-temp div{
+/* margin: 0 4rem; */
+}
+
+.footer{
+   background-color: blue; 
+   padding: 2rem 6rem;
+
+}
+.sun-int{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.get-the-app{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
     
+}
+.get-the-app img{
+    height: 3rem;
+    width: auto;
+    margin: 0 0.5rem;
+}
+.sundown{
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+    color: white;
+    font-size: x-large;
+}
+.reason{
+    font-size: x-large;
+    padding-top: 5rem;
+    padding-left: 50rem;
+    padding-right: 50rem;
 
 }
 /* .overlay{
@@ -230,6 +352,7 @@ width: auto;
     top: 0;
     opacity: 0.7;
 } */
+
 .fp_ext_img{
     margin: 8rem 0 0 0;
 }
