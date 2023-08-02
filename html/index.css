@@ -13,7 +13,7 @@ body {
     width: 100%;
     
 }
-.menu_logo {
+/* .menu_logo {
     background-color: rgb(14, 14, 173);
     flex: 0.1;
 }
@@ -21,6 +21,12 @@ body {
     height: 150px;
     width: 250px;
     padding: 0px;
+} */
+.logo{
+    height: 150px;
+    width: 250px;
+    padding: 0px;
+    flex: 0.1;   
 }
 .menu_list {
     background-color: hsla(240, 100%, 50%, 0.753);
@@ -64,12 +70,17 @@ text-decoration: none;
     
 }  
 
-.fp_ext_img{
+/* .fp_ext_img{
     margin: 8rem 0 0 0;
 }
 .fp_ext_img img{
 width: 2405px;
 height: auto;
+} */
+.bgimage{
+    margin: 8rem 0 0 0;
+    width: 2405px; 
+    height: auto;
 }
 .calender_menu{
     /* background-color: green; */
